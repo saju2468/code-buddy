@@ -2,13 +2,13 @@ const express = require("express");
 
 const app = express();
 
+app.get("/user/:userId/:name/:password", (req, res) => {
+  console.log(req.params);
 
-app.use("/dashboard", (req, res) => {
-  res.send("hello dashboard server....");
-});
-
-app.use("/test", (req, res) => {
-  res.send("hello from server....");
+  res.send({
+    firstname: "sajin",
+    lastname: "pp",
+  });
 });
 
 app.listen(3000, () => {
