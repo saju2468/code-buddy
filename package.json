@@ -9,7 +9,7 @@
   "license": "ISC",
   "author": "sajin pp",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "start" : "node src/app.js",
     "dev" : "nodemon src/app.js",
