@@ -1,6 +1,6 @@
-# DevTinder Backend
+# CodeBuddy Backend
 
-DevTinder is a matchmaking platform designed specifically for software developers to connect, collaborate, and network. This repository contains the backend REST API built using **Node.js** and **Express.js**.
+CodeBuddy is a matchmaking platform designed specifically for software developers to connect, collaborate, and network. This repository contains the backend REST API built using **Node.js** and **Express.js**.
 
 ---
 
@@ -16,7 +16,7 @@ DevTinder is a matchmaking platform designed specifically for software developer
 ## 📁 Project Structure
 
 ```text
-devTinder-backend/
+codebuddy-backend/
 ├── src/
 │   └── app.js          # Express app entry point & route definitions
 ├── .gitignore          # Git ignore configuration
@@ -39,7 +39,7 @@ Ensure you have the following installed:
 ### 2. Clone the Repository
 ```bash
 git clone https://github.com/saju2468/devTinder.git
-cd devTinder-backend
+cd codebuddy-backend
 ```
 
 ### 3. Install Dependencies
